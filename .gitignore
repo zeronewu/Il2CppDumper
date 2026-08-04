@@ -12,3 +12,5 @@
 /out
 .externalNativeBuild
 .cxx
+repomix-output.xml
+repomix.config.json

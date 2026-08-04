@@ -1,5 +1,9 @@
-include ':module'
-
 import org.apache.tools.ant.DirectoryScanner
 
+rootProject.name = 'Zygisk-Il2CppDumper'
+include ':module'
+
 DirectoryScanner.removeDefaultExclude('**/.gitattributes')
+
+// Enable type-safe project accessors
+enableFeaturePreview('TYPESAFE_PROJECT_ACCESSORS')
